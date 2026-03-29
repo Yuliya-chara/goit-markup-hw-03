@@ -102,11 +102,13 @@ img {
 
 
 .header-link {
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
    letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-block: 24px;
 }
 
 .header-list {
@@ -116,7 +118,7 @@ img {
 }
 
 .header-item {
-    padding-block: 24px;
+    
 }
 
 .address-list {
@@ -132,6 +134,11 @@ img {
     color: #404BBF;
 }
 
+.contacts {
+    display: flex;
+    margin-left: auto;
+}
+
 .contact-list {
 
     font-weight: 400;
@@ -139,7 +146,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-left: auto;
+   
 }
 
 .contact-list:hover,
@@ -243,7 +250,7 @@ padding-block: 120px;
 
 .team-list {
     display: flex;
-    gap: 24px; 
+    gap: 24px;
 }
 
 .team-title {
@@ -262,7 +269,7 @@ text-align: center;
 
 .team-item-wrapper {
     padding-block: 32px;
-    row-gap: 8px;
+    padding-inline: 16;
 }
 
 .team-subtitle {
@@ -319,9 +326,8 @@ color: #2E2F42;
 .portfolio-item-wrapper {
 border: 1px solid #E7E9FC;
 border-top-style: none;
-gap: 8px;
 padding: 32px 16px;
-margin-left: 16px;
+
 }
 
 .portfolio-subtitle {
