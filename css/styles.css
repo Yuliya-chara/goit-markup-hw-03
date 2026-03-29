@@ -164,8 +164,8 @@ img {
 
 .hero-wrapper {
 padding-block: 188px;
-max-width: 496px;
-margin: 0 auto
+
+
 }
 
 .hero-title {
@@ -175,7 +175,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
-margin-bottom: 48px;
+padding-bottom: 48px;
+max-width: 496px;
+margin: 0 auto
 }
 
 button {
@@ -312,7 +314,6 @@ color: #2E2F42;
 
 .portfolio-list {
     display: flex;
-     justify-content: center;
      flex-wrap: wrap;
      column-gap: 24px;
     row-gap: 48px;
